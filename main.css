@@ -92,10 +92,11 @@ nav button {
 
 .btn {
     padding: 3px 8px;
-    font-weight: bold;
-    background-color: black;
+    font-weight: 400 ;
+    background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
     border-radius: 5px;
+
 }
 
 .btn_red {
@@ -111,14 +112,55 @@ nav button {
     width: 350px;
     padding: 10px 10px;
     font-size: 24px;
+    font-weight: 400;
     border-radius: 5px;
     color: #fff;
     background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(255, 252, 252, 0.2);
 }
 
 .btn_red_sm {
     background-color: red;
     color: #fff;
     border: none;
+    padding: 5px 10px;
     border-radius: 5px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    align-items: center;
+    margin: auto;
+    color: #fff;
+
+}
+
+.secImg {
+    position: relative;
+
+}
+.secImg img {
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+.secImg video {
+    width: 26vw;
+    position: absolute;
+    top: 51px;
+    right: 0px;
+}
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+    
+}
+section.first > div {
+    display: flex;
+    flex-direction: column;
 }
