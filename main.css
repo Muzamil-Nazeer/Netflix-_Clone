@@ -5,7 +5,8 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     background-color: black;
 }
 
@@ -40,7 +41,7 @@ nav {
 
 nav img {
     color: red;
-    width: 130px;
+    width: 150px;
     position: relative;
     z-index: 10;
 }
@@ -52,7 +53,7 @@ nav button {
 
 .hero {
     font-family: 'Martel+Sans', sans-serif;
-   height: calc(100% - 100px);
+    height: calc(100% - 100px);
     display: flex;
     align-items: center;
     text-align: center;
@@ -81,9 +82,43 @@ nav button {
     font-size: 20px;
     text-align: center;
 }
-.seperation{
-    background-color: gray;
+
+.seperation {
+    background-color: rgb(44, 44, 44);
     height: 7px;
     position: relative;
     z-index: 20;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn_red {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+}
+
+.main input {
+    width: 350px;
+    padding: 10px 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(23, 23, 23, 0.2);
+}
+
+.btn_red_sm {
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
