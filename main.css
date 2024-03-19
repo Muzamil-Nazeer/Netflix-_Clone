@@ -1,4 +1,24 @@
-h1{
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(./assits/images/1_5lyavS59mazOFnb55Z6znQ.png);
+    height: 80vh;
+    position: relative;
+}
+.main .box{
+  
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0%;
     background-color: black;
-    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 60vw;
+    margin: auto;
 }
