@@ -92,7 +92,7 @@ nav button {
 
 .btn {
     padding: 3px 8px;
-    font-weight: 400 ;
+    font-weight: 400;
     background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
     border-radius: 5px;
@@ -128,7 +128,7 @@ nav button {
     border-radius: 5px;
 }
 
-.first{
+.first {
     display: flex;
     justify-content: center;
     max-width: 70vw;
@@ -142,57 +142,61 @@ nav button {
     position: relative;
 
 }
+
 .secImg img {
-  width: 30vw;
-  position: relative;
-  z-index: 10;
+    width: 30vw;
+    position: relative;
+    z-index: 10;
 }
+
 .secImg video {
     width: 26vw;
     position: absolute;
     top: 51px;
     right: 0px;
 }
-section.first > div :nth-child(1){
+
+section.first>div :nth-child(1) {
     font-size: 48px;
     font-weight: bolder;
 }
-section.first > div :nth-child(2){
+
+section.first>div :nth-child(2) {
     font-size: 24px;
-    
+
 }
-section.first > div {
+
+section.first>div {
     display: flex;
     flex-direction: column;
 }
 
 
-section.second > div {
+section.second>div {
     display: flex;
     flex-direction: column;
 }
 
 
-.faq{
+.faq {
     background-color: black;
     color: #fff;
 
 }
-.faq h2{
+
+.faq h2 {
     text-align: center;
     padding: 20px;
     font-size: 48px;
     font-weight: 900;
 }
 
-.faqbox:hover{
+.faqbox:hover {
     background-color: rgb(75, 74, 74);
 }
 
-
-
 .faqbox {
-    transition: all 1s ease-out ;
+    transition: all ease-out;
     display: flex;
     background-color: #2d2d2d;
     padding: 24px;
@@ -200,12 +204,39 @@ section.second > div {
     margin: 10px auto;
     font-size: 24px;
     font-weight: 400;
+    margin: 34px auto;
     justify-content: space-between;
+    cursor: pointer;
 }
-.btn-two{
 
-    justify-content: center;
-    align-items: center;
-    max-width: 600px;
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #fff;
+
+
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    color: #fff;
+    max-width: 60vw;
     margin: auto;
+    padding: 14px;
+     
+}
+
+footer .footer-div {
+    padding: 23px 0px ;
+}
+    
+
+footer a {
+    font-size: 14px ;
+    gap: 23px ;
+    color: #fff;
 }
